@@ -4,11 +4,22 @@
     <ClCompile Include="C:\Users\조혜형\git\opengl\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\조혜형\git\opengl\src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\조혜형\git\opengl\src\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\조혜형\git\opengl\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9BA4BA75-6595-36A0-B16B-F9435674C2B1}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{B0D46BCE-EC61-3324-8D90-CCFD9F99E0DC}</UniqueIdentifier>
     </Filter>
