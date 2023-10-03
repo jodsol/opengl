@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/84351240588d86062f64927cc5371db9/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/6ee2f60469fa5ace56bf94d4c756ca7f/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/Users/\uc870\ud61c\ud615/git/opengl/build/CMakeFiles/a4acb5936bba9bbf4014195d5a88ff39/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

@@ -1,0 +1,8 @@
+C:/Users/조혜형/git/opengl/build/install/include/GLFW/glfw3.h
+C:/Users/조혜형/git/opengl/build/install/include/GLFW/glfw3native.h
+C:/Users/조혜형/git/opengl/build/install/lib/cmake/glfw3/glfw3Config.cmake
+C:/Users/조혜형/git/opengl/build/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/Users/조혜형/git/opengl/build/install/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Users/조혜형/git/opengl/build/install/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/Users/조혜형/git/opengl/build/install/lib/pkgconfig/glfw3.pc
+C:/Users/조혜형/git/opengl/build/install/lib/glfw3.lib

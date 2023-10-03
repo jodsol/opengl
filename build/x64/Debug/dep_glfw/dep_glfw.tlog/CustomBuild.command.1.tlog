@@ -1,0 +1,156 @@
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-DOWNLOAD.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-UPDATE.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-PATCH.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-CONFIGURE.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/조혜형/git/opengl/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 17 2022" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-BUILD.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-INSTALL.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\A4ACB5936BBA9BBF4014195D5A88FF39\DEP_GLFW-TEST.RULE
+setlocal
+cd C:\Users\조혜형\git\opengl\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\6EE2F60469FA5ACE56BF94D4C756CA7F\DEP_GLFW-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/조혜형/git/opengl/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/CMakeFiles/Debug/dep_glfw-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/조혜형/git/opengl/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\BUILD\CMAKEFILES\84351240588D86062F64927CC5371DB9\DEP_GLFW.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\조혜형\GIT\OPENGL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/조혜형/git/opengl -BC:/Users/조혜형/git/opengl/build --check-stamp-file C:/Users/조혜형/git/opengl/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
